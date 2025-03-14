@@ -111,3 +111,8 @@ body{
     background: #800080;
 }
 
+.btn-box{
+    display: inline-block;
+    padding: 12px 21px;
+    background: #800080;
+}
