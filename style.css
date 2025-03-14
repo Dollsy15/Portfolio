@@ -42,7 +42,6 @@ body{
 
 .navbar a:hover{
     color: #800080;
-
 }
 
 .home{
@@ -58,3 +57,6 @@ body{
     padding: 70px 10% 0;
 }
 
+.home-content{
+    max-width: 600px;
+}
