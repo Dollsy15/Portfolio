@@ -190,11 +190,13 @@ body {
 }
 
 .about-img .second-ring {
-    top: 120%; 
+    top: 80%; 
+    left: 0;
 }
 
 .about-img .second-pic {
-    top: 170%; 
+    top: 130%;
+    margin-left: 110px; 
 }
 
 
