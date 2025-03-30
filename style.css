@@ -150,11 +150,13 @@ body {
   letter-spacing: 1px;
   text-decoration: none;
   font-weight: 600;
-  opacity: 0;
+  opacity: 1;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
   box-shadow: 0 0 5px #800080, 0 0 25px #800080;
   margin-bottom: 50px;
+  position: relative;
+  z-index: 10;
 }
 
 .btn-box:hover {
