@@ -58,9 +58,6 @@ body {
   width: 100%;
   justify-content: space-between;
   height: 100vh;
-  /* background: url(images/wallppr.jpg) no-repeat;
-  background-size: cover;
-  background-position: center; */
   display: flex;
   align-items: center;
   padding: 70px 10% 0;
@@ -191,6 +188,15 @@ body {
     top: 52%;
     transform: translateY(-60%);
 }
+
+.about-img .second-ring {
+    top: 120%; 
+}
+
+.about-img .second-pic {
+    top: 170%; 
+}
+
 
 .about-text h2{
     font-size: 60px;
