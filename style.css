@@ -168,19 +168,22 @@ body {
     gap: 1.5rem;
 }
 
-.about-img .Neon-Ring{
+.about-img .Neon-Ring {
     padding-bottom: 20%;
-    max-width: 630px;
-    height: auto;
-    width: 100%;
     border-radius: 8px;
+    position: absolute;
+    top: 1%; 
+    left: 52.5%;
+    width: 40%;  
+    height: auto;
+    z-index: 1;
 }
 
 .about-img .profile-pic{
     height: 300px;
     width: 300px;
     border-radius: 50%;
-    margin-left: 165px;
+    margin-left: 779px;
     position: absolute;
     top: 52%;
     transform: translateY(-60%);
