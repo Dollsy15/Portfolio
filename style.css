@@ -124,5 +124,5 @@ body{
 }
 
 .btn-box:hover{
-    box-shadow: 0 0 5px purple, 0 0 25px purple, 0 0 50px purple, 0 0 100px purple;
+    box-shadow: 0 0 5px purple, 0 0 25px purple, 0 0 50px purple, 0 0 100px purple, 0 0 200px purple;
 }
