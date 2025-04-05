@@ -164,71 +164,69 @@ body {
     0 0 200px purple;
 }
 
-.about{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    align-items: center;
-    gap: 1.5rem;
+.about {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 1.5rem;
 }
 
 .about-img .Neon-Ring {
-    padding-bottom: 20%;
-    border-radius: 8px;
-    position: absolute;
-    top: 1%; 
-    left: 52.5%;
-    width: 40%;  
-    height: auto;
-    z-index: 1;
+  padding-bottom: 20%;
+  border-radius: 8px;
+  position: absolute;
+  top: 1%;
+  left: 52.5%;
+  width: 40%;
+  height: auto;
+  z-index: 1;
 }
 
-.about-img .profile-pic{
-    height: 300px;
-    width: 300px;
-    border-radius: 50%;
-    margin-left: 779px;
-    position: absolute;
-    top: 52%;
-    transform: translateY(-60%);
+.about-img .profile-pic {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+  margin-left: 779px;
+  position: absolute;
+  top: 52%;
+  transform: translateY(-60%);
 }
 
 .about-img .second-ring {
-    top: 80%; 
-    left: 0;
+  top: 80%;
+  left: 0;
 }
 
 .about-img .second-pic {
-    top: 130%;
-    margin-left: 110px; 
+  top: 130%;
+  margin-left: 110px;
 }
 
-
-.about-text h2{
-    font-size: 60px;
-    margin-left: -70px;
+.about-text h2 {
+  font-size: 60px;
+  margin-left: -70px;
 }
 
-.about-text h2 span{
-    color: #800080;
+.about-text h2 span {
+  color: #800080;
 }
 
-.about-text h4{
-    font-size: 29px;
-    font-weight: 600;
-    color: #fff;
-    line-height: 1.7;
-    margin: 15px 0 30px;
-    margin-left: -70px;
+.about-text h4 {
+  font-size: 29px;
+  font-weight: 600;
+  color: #fff;
+  line-height: 1.7;
+  margin: 15px 0 30px;
+  margin-left: -70px;
 }
 
-.about-text p{
-    color: aliceblue;
-    font-size: 20px;
-    line-height: 1.4;
-    margin-bottom: 4rem;
-    margin-left: -70px;
+.about-text p {
+  color: aliceblue;
+  font-size: 20px;
+  line-height: 1.4;
+  margin-bottom: 4rem;
+  margin-left: -70px;
 }
-
 
 @keyframes slideRight {
   0% {
