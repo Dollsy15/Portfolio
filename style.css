@@ -427,7 +427,8 @@ section {
 }
 
 .radial-bars{
-  width: 100%;
+  width: 150px;
+  height: 150px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -454,8 +455,8 @@ section {
   stroke-width: 10;
   stop-color: black;
   fill: transparent;
-  stroke-dasharray: 502;
-  stroke-dashoffset: 502;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
   stroke-linecap: round;
   animation: animate-bar 1s linear forwards;
 }
@@ -464,8 +465,8 @@ section {
   stroke-width: 10;
   stroke: #800080;
   fill: transparent;
-  stroke-dasharray: 502;
-  stroke-dashoffset: 502;
+  stroke-dasharray: 377;
+  stroke-dashoffset: 377;
   stroke-linecap: round;
 }
 
