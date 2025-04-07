@@ -229,28 +229,28 @@ body {
   margin-left: -70px;
 }
 
-.container{
+.container {
   padding: 90px;
 }
 
-#services{
+#services {
   color: aliceblue;
   line-height: 1.4;
   font-size: 20px;
   margin-bottom: 4rem;
 }
 
-.sub-title{
+.sub-title {
   text-align: center;
   font-size: 60px;
   padding-bottom: 70px;
 }
 
-.sub-title span{
+.sub-title span {
   color: #800080;
 }
 
-.services-list{
+.services-list {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(259px, 1fr));
   grid-gap: 40px;
@@ -265,21 +265,22 @@ body {
   border-right: 10px;
   border-radius: 20px;
   transition: background 0.5s, transform 0.5s;
-  box-shadow: 0 8px 20px rgba(128, 0, 128, 0.4), 0 0 15px rgba(186, 85, 211, 0.3);
+  box-shadow: 0 8px 20px rgba(128, 0, 128, 0.4),
+    0 0 15px rgba(186, 85, 211, 0.3);
 }
 
-.services-list div i{
+.services-list div i {
   font-size: 50px;
   margin-bottom: 30px;
 }
 
-.services-list div h2{
+.services-list div h2 {
   font-size: 30px;
   font-weight: 500;
   margin-bottom: 15px;
 }
 
-.services-list div a{
+.services-list div a {
   text-decoration: none;
   color: #000000;
   font-size: 12px;
@@ -287,7 +288,7 @@ body {
   display: inline-block;
 }
 
-.read{
+.read {
   display: inline-block;
   padding: 12px 28px;
   background: #800080;
@@ -307,13 +308,10 @@ body {
 .read:hover {
   background: #800080;
   color: #081b29;
-  box-shadow:
-    0 0 5px #800080,
-    0 0 25px #800080,
-    0 0 50px #800080; 
+  box-shadow: 0 0 5px #800080, 0 0 25px #800080, 0 0 50px #800080;
 }
 
-.services-list div:hover{
+.services-list div:hover {
   transform: translateY(-10px);
 }
 
@@ -426,125 +424,118 @@ section {
   content: "75%";
 }
 
-.radial-bars{
-  width: 150px;
-  height: 150px;
+.radial-bars {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: flex-start;
+  gap: 40px;
 }
 
-.radial-bars .radial-bar{
-  width: 50%;
-  height: 170px;
-  margin-bottom: 10px;
+.radial-bar {
+  width: 150px;
+  height: 150px;
   position: relative;
 }
 
-.radial-bars .radial-bar svg{
+.radial-bar svg {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%) rotate(-90deg);
   width: 120px;
-  height: 160px;
+  height: 120px;
 }
 
-.radial-bars .radial-bar .progress-bar{
+.progress-bar {
   stroke-width: 10;
-  stop-color: black;
-  fill: transparent;
+  stroke: #000;
+  fill: none;
   stroke-dasharray: 377;
   stroke-dashoffset: 377;
   stroke-linecap: round;
   animation: animate-bar 1s linear forwards;
 }
 
-.path{
+.path {
   stroke-width: 10;
   stroke: #800080;
-  fill: transparent;
+  fill: none;
   stroke-dasharray: 377;
   stroke-dashoffset: 377;
   stroke-linecap: round;
 }
 
-.path-1{animation: animate-path1 1s 1s linear forwards;}
-.path-2{animation: animate-path2 1s 1s linear forwards;}
-.path-3{animation: animate-path3 1s 1s linear forwards;}
-.path-4{animation: animate-path4 1s 1s linear forwards;}
+.path-1 {
+  animation: animate-path1 1s 1s linear forwards;
+}
+.path-2 {
+  animation: animate-path2 1s 1s linear forwards;
+}
+.path-3 {
+  animation: animate-path3 1s 1s linear forwards;
+}
+.path-4 {
+  animation: animate-path4 1s 1s linear forwards;
+}
 
-.radial-bar .percentage{
+.percentage {
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  font-size: 17px;
-  font-weight: 500;
-  animation: showText 0.5s 1s linear forwards;
+  font-size: 16px;
+  font-weight: 600;
+  animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 }
 
-.radial-bar .text{
-  width: 100%;
+.text {
   position: absolute;
-  text-align: center;
+  bottom: -30px;
   left: 50%;
-  bottom: -5px;
-  transform: translateX(-50px);
-  font-size: 17px;
+  transform: translateX(-50%);
+  font-size: 15px;
   font-weight: 500;
-  animation: showText 0.5s 1s linear forwards;
+  animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
 }
 
-
-
-
-
-
-
-
-
-@keyframes animate-path1{
-  100%{
-    stroke-dashoffset: 50;
+@keyframes animate-bar {
+  100% {
+    stroke-dashoffset: 0;
   }
 }
 
-@keyframes animate-path2{
-  100%{
-    stroke-dashoffset: 175;
+@keyframes animate-path1 {
+  100% {
+    stroke-dashoffset: 37;
+  }
+}
+@keyframes animate-path2 {
+  100% {
+    stroke-dashoffset: 94;
+  }
+}
+@keyframes animate-path3 {
+  100% {
+    stroke-dashoffset: 75;
+  }
+}
+@keyframes animate-path4 {
+  100% {
+    stroke-dashoffset: 56;
   }
 }
 
-@keyframes animate-path3{
-  100%{
-    stroke-dashoffset: 125;
-  }
-}
-
-@keyframes animate-path4{
-  100%{
-    stroke-dashoffset: 50;
-  }
-}
-
-@keyframes animate-bar{
-  100%{
-    stroke-dashoffset: -1;
-  }
-}
-
-@keyframes showText{
-  100%{
+@keyframes showText {
+  100% {
     opacity: 1;
   }
 }
 
-@keyframes animate{
-  100%{
+@keyframes animate {
+  100% {
     transform: scaleX(1);
   }
 }
