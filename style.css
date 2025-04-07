@@ -522,6 +522,40 @@ section {
   }
 }
 
+.radial-bar .percentage{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s lienar forwards;
+  opacity: 0;
+}
+
+.radial-bar .texts{
+  width: 100%;
+  position: absolute;
+  text-align: center;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50px);
+  font-size: 17px;
+  font-weight: 500;
+  animation: showText 0.5s 1s linear forwards;
+  opacity: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
 @keyframes showText {
   100% {
     opacity: 1;
