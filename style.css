@@ -303,11 +303,15 @@ body {
   transition: 0.5s ease;
 }
 
-.read:hover{
+.read:hover {
   background: #800080;
   color: #081b29;
-  box-shadow: 0 0 20px #800080;
+  box-shadow:
+    0 0 5px #800080,
+    0 0 25px #800080,
+    0 0 50px #800080;
 }
+
 
 
 
