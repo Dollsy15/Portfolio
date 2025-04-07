@@ -309,7 +309,11 @@ body {
   box-shadow:
     0 0 5px #800080,
     0 0 25px #800080,
-    0 0 50px #800080;
+    0 0 50px #800080; 
+}
+
+.services-list div:hover{
+  transform: translateY(-10px);
 }
 
 
