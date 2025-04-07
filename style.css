@@ -451,18 +451,17 @@ section {
   stroke-width: 10;
   stroke: #000;
   fill: none;
-  stroke-dasharray: 377;
-  stroke-dashoffset: 377;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 0;
   stroke-linecap: round;
-  animation: animate-bar 1s linear forwards;
 }
 
 .path {
   stroke-width: 10;
   stroke: #800080;
   fill: none;
-  stroke-dasharray: 377;
-  stroke-dashoffset: 377;
+  stroke-dasharray: 502;
+  stroke-dashoffset: 502;
   stroke-linecap: round;
 }
 
@@ -501,30 +500,24 @@ section {
   opacity: 0;
 }
 
-@keyframes animate-bar {
-  100% {
-    stroke-dashoffset: 0;
-  }
-}
-
 @keyframes animate-path1 {
   100% {
-    stroke-dashoffset: 37;
+    stroke-dashoffset: 138;
   }
 }
 @keyframes animate-path2 {
   100% {
-    stroke-dashoffset: 94;
+    stroke-dashoffset: 200;
   }
 }
 @keyframes animate-path3 {
   100% {
-    stroke-dashoffset: 75;
+    stroke-dashoffset: 165;
   }
 }
 @keyframes animate-path4 {
   100% {
-    stroke-dashoffset: 56;
+    stroke-dashoffset: 150; 
   }
 }
 
@@ -533,6 +526,7 @@ section {
     opacity: 1;
   }
 }
+
 
 @keyframes animate {
   100% {
