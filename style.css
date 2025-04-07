@@ -332,6 +332,7 @@ section{
 .heading1{
   text-align: center;
   text-decoration: underline;
+  text-underline-offset: 10px;
   text-decoration-thickness: 5px;
   margin-top: 50px;
 }
@@ -384,6 +385,25 @@ section{
   transform-origin: left;
 }
 
+.progress-line.html span{
+  width: 90%;
+}
+
+.progress-line.css span{
+  width: 60%;
+}
+
+.progress-line.javascript span{
+  width: 85%;
+}
+
+.progress-line.python span{
+  width: 50%;
+}
+
+.progress-line.react span{
+  width: 75%;
+}
 
 
 
