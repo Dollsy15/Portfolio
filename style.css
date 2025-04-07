@@ -489,17 +489,6 @@ section {
   opacity: 0;
 }
 
-.text {
-  position: absolute;
-  bottom: -30px;
-  left: 50%;
-  transform: translateX(-50%);
-  font-size: 15px;
-  font-weight: 500;
-  animation: showText 0.5s 1.5s linear forwards;
-  opacity: 0;
-}
-
 @keyframes animate-path1 {
   100% {
     stroke-dashoffset: 138;
