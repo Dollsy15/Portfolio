@@ -444,6 +444,28 @@ section{
   width: 0;
   height: 0;
   border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-color: #000;
+  top: -10px;
+  right: 0;
+  animation: showText 0.5s 1.5s linear forwards;
+  opacity: 0;
+}
+
+.radial-bars{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+
+.radial-bars .radial-bar{
+  width: 50%;
+  height: 170px;
+  margin-bottom: 10px;
+  position: relative;
 }
 
 
@@ -457,8 +479,11 @@ section{
 
 
 
-
-
+@keyframes showText{
+  100%{
+    opacity: 1;
+  }
+}
 
 @keyframes animate{
   100%{
