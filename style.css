@@ -491,15 +491,15 @@ section {
 
 .texts {
   position: absolute;
-  bottom: -10px;
+  bottom: -15px;
   left: 75px;
   transform: translateX(-50%);
   font-size: 16px;
   font-weight: 700;
   animation: showText 0.5s 1.5s linear forwards;
   opacity: 0;
+  text-align: center;
 }
-
 
 @keyframes animate-path1 {
   100% {
