@@ -546,19 +546,17 @@ section {
   opacity: 0;
 }
 
-.main-text {
-  padding-top: 130px;
-  margin-top: 0; /* You don't need large margin here if padding works */
-  width: 100%;
+#portfolio {
+  color: aliceblue;
+  line-height: 1.4;
+  font-size: 20px;
+  margin-bottom: 4rem;
 }
 
 .heading2 {
   text-align: center;
   font-size: 60px;
   padding-bottom: 70px;
-  display: block;
-  width: 100%;
-  margin: 0 auto;
 }
 
 .heading2 span {
