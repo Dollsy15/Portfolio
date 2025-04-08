@@ -748,19 +748,20 @@ section {
 }
 
 .contact-icons a:hover {
-  transform: scale(1.1);
+  background: #800080;
+  color: #fff;
 }
 
 .contact-icons a:hover:nth-child(1) {
-  color: #1877f2;
+  color: blue;
 }
 
 .contact-icons a:hover:nth-child(2) {
-  color: #1da1f2;
+  color: #1DA1F2;
 }
 
 .contact-icons a:hover:nth-child(3) {
-  color: #bd081c;
+  color: #E60023;
 }
 
 .contact-icons a:hover:nth-child(4) {
