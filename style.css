@@ -551,15 +551,14 @@ section {
   margin-top: 200px;
 }
 
-.main-text h2{
-  font-size: 60px;
-  line-height: 1;
+.main-text .heading2 {
   text-align: center;
+  font-size: 60px;
+  padding-bottom: 70px;
 }
 
-.main-text h2 span{
+.main-text .heading2 span {
   color: #800080;
-  text-align: center;
 }
 
 .portfolio-content{
