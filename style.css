@@ -564,6 +564,7 @@ section {
 .portfolio-content{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(359px, auto));
+  gap: 20px;
 }
 
 .row{
@@ -585,6 +586,7 @@ section {
   height: 0;
   background: linear-gradient(rgba(0, 0, 0, 0.1), #800080);
   position: absolute;
+  z-index: 2;
   border-radius: 8px;
   left: 0;
   bottom: 0;
@@ -599,14 +601,14 @@ section {
 }
 
 .layer h5{
-  color: #000;
+  color: #fff;
   font-size: 20px;
   font-weight: 600;
   margin-bottom: 15px;
 }
 
 .layer p{
-  color: #000;
+  color: #fff;
   font-size: 1rem;
   line-height: 1.8;
 }
