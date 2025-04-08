@@ -675,7 +675,7 @@ section {
   height: 100%;
 }
 
-.contact{
+.contact {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   align-items: center;
@@ -684,80 +684,106 @@ section {
   margin-top: 130px;
 }
 
-.contact-text h4{
+.contact-text h4 {
   margin: 15px 0;
   color: rgb(228, 228, 228);
   font-size: 20px;
   font-weight: 600;
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-.contact-text p{
-  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+.contact-text p {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   color: white;
   font-size: 20px;
   line-height: 30px;
   margin-bottom: 2rem;
 }
 
-.contact-list{
+.contact-list {
   margin-bottom: 3rem;
 }
 
-.contact-list li{
+.contact-list li {
   margin-bottom: 10px;
   display: block;
-  /* line-height: 1.2px; */
 }
 
-.contact-list i{
+.contact-list i {
   display: inline-block;
   color: #800080;
   font-size: 20px;
   font-weight: 600;
-  transition: all .40s ease;
+  transition: all 0.4s ease;
 }
 
-.contact-list li a:hover{
+.contact-list li:hover {
   transform: scale(1.01) translateY(-5px);
   color: #800080;
 }
 
-.contact-icons i{
-  display: inline-block;
-  justify-content:  center;
+.contact-icons {
+  display: flex;
   align-items: center;
-  width: 40px;
-  height: 40px;
+  flex-wrap: wrap;
+}
+
+.contact-icons a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
   background: transparent;
   border: 2px solid #800080;
   border-radius: 50%;
-  font-size: 20px;
+  font-size: 22px;
   color: #800080;
   text-decoration: none;
   margin: 30px 15px 30px 0;
-  transition: .5s ease;
+  transition: all 0.4s ease;
   opacity: 0;
   animation: slideLeft 1s ease forwards;
   animation-delay: calc(.2s * var(--i));
 }
 
-.contact-icons i:hover{
-  background: #800080;
-  color: #000;
-  box-shadow: 0 0 20px #800080;
+.contact-icons a:hover {
+  transform: scale(1.1);
+  color: #fff;
+  box-shadow: 0 0 20px currentColor;
 }
 
-.contact-form form{
+.contact-icons a:hover:nth-child(1) {
+  background: #1877f2;
+  border-color: #1877f2;
+}
+
+.contact-icons a:hover:nth-child(2) {
+  background: #1da1f2;
+  border-color: #1da1f2;
+}
+
+.contact-icons a:hover:nth-child(3) {
+  background: #bd081c;
+  border-color: #bd081c;
+}
+
+.contact-icons a:hover:nth-child(4) {
+  background: #ff0000;
+  border-color: #ff0000;
+}
+
+.contact-form form {
   position: relative;
 }
 
-.contact-form form input, form textarea{
+.contact-form form input,
+.contact-form form textarea {
   border: none;
   outline: none;
   width: 90%;
   padding: 18px;
-  background: #2e003e; 
+  background: #2e003e;
   color: #fff;
   font-size: 1rem;
   font-weight: 600;
@@ -765,12 +791,12 @@ section {
   border-radius: 0.5rem;
 }
 
-.contact-form textarea{
+.contact-form textarea {
   resize: none;
   height: 220px;
 }
 
-.contact-form form .send{
+.contact-form form .send {
   display: inline-block;
   padding: 14px 60px;
   background: #800080;
@@ -783,14 +809,15 @@ section {
   opacity: 0;
   animation: slideTop 1s ease forwards;
   animation-delay: 2s;
-  box-shadow: 0 0 5px #800080, 
-  0 0 25px #800080;
+  box-shadow: 0 0 5px #800080, 0 0 25px #800080;
 }
 
-.contact-form form .send:hover{
-  box-shadow: 0 0 5px #800080, 
-  0 0 25px #800080, 0 0 50px #800080,
-  0 0 100px #800080,0 0 200px #800080;
+.contact-form form .send:hover {
+  box-shadow: 0 0 5px #800080,
+              0 0 25px #800080,
+              0 0 50px #800080,
+              0 0 100px #800080,
+              0 0 200px #800080;
 }
 
 @keyframes showText {
