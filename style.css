@@ -820,6 +820,15 @@ section {
               0 0 200px #800080;
 }
 
+.last-text p{
+  width: 100%;
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(7, 85, 91);
+  font-weight: 300;
+  margin-top: 70px;
+}
+
 @keyframes showText {
   100% {
     opacity: 1;
