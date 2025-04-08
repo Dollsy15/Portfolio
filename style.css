@@ -566,19 +566,20 @@ section {
 }
 
 .edu-box h3 {
+  color: #800080;
   font-size: 24px;
   margin-bottom: 8px;
 }
 
 .edu-year {
   font-size: 16px;
-  color: #666;
+  color: #800080;
   margin-bottom: 5px;
 }
 
 .edu-college {
   font-size: 18px;
-  color: #333;
+  color: #800080;
 }
 
 .main-text {
