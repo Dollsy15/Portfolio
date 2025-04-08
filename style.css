@@ -546,18 +546,22 @@ section {
   opacity: 0;
 }
 
-.main-text{
+.main-text {
   padding-top: 130px;
-  margin-top: 200px;
+  margin-top: 0; /* You don't need large margin here if padding works */
+  width: 100%;
 }
 
-.main-text .heading2 {
+.heading2 {
   text-align: center;
   font-size: 60px;
   padding-bottom: 70px;
+  display: block;
+  width: 100%;
+  margin: 0 auto;
 }
 
-.main-text .heading2 span {
+.heading2 span {
   color: #800080;
 }
 
