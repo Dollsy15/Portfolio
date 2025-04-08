@@ -787,6 +787,11 @@ section {
   0 0 25px #800080;
 }
 
+.contact-form form .send:hover{
+  box-shadow: 0 0 5px #800080, 
+  0 0 25px #800080, 0 0 50px #800080,
+  0 0 100px #800080,0 0 200px #800080;
+}
 
 @keyframes showText {
   100% {
