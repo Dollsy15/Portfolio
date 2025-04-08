@@ -791,6 +791,11 @@ section {
   height: 220px;
 }
 
+.contact-form input::placeholder,
+.contact-form textarea::placeholder {
+  color: #fff;
+}
+
 .contact-form form .send {
   display: inline-block;
   padding: 14px 60px;
