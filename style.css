@@ -740,7 +740,11 @@ section {
   animation-delay: calc(.2s * var(--i));
 }
 
-
+.contact-icons i:hover{
+  background: #800080;
+  color: #000;
+  box-shadow: 0 0 20px #800080;
+}
 
 
 
