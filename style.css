@@ -829,6 +829,20 @@ section {
   margin-top: 70px;
 }
 
+.top{
+  position: fixed;
+  bottom: 2.1rem;
+  right: 2.1rem;
+}
+
+.top i{
+  color: #000;
+  background: #800080;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 0.5rem;
+}
+
 @keyframes showText {
   100% {
     opacity: 1;
