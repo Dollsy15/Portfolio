@@ -604,57 +604,57 @@ section {
   color: #800080;
 }
 
-.portfolio-content{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(359px, auto));
-  gap: 20px;
+.portfolio-content {
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  flex-wrap: wrap; /* allows wrapping on smaller screens */
+  gap: 2rem;
+  margin-top: 2rem;
 }
 
-.row{
-  position: relative;
+.row {
+  background-color: #1c1c1c;
+  color: white;
+  width: 300px;
+  height: 420px;
+  border-radius: 12px;
   overflow: hidden;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.row img{
-  width: 100%;
-  border-radius: 8px;
-  display: block;
-  transition: transform 0.5s;
-}
-
-.layer{
-  width: 100%;
-  height: 0;
-  background: linear-gradient(rgba(0, 0, 0, 0.1), #800080);
-  position: absolute;
-  z-index: 2;
-  border-radius: 8px;
-  left: 0;
-  bottom: 0;
-  overflow: hidden;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  text-align: center; 
-  padding: 0 40px;
-  transition: height 0.5s;
+  transition: transform 0.3s ease;
 }
 
-.layer h5{
-  color: #fff;
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 15px;
-  width: 100%; 
+.row img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
-.layer p{
+.layer {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex: 1;
+}
+
+.layer h5 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.layer p {
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+  flex-grow: 1;
+}
+
+.layer a {
+  font-size: 1.5rem;
   color: #fff;
-  font-size: 1rem;
-  line-height: 1.8;
+  align-self: flex-start;
 }
 
 .layer i{
