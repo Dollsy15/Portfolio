@@ -245,6 +245,8 @@ body {
   text-align: center;
   font-size: 60px;
   padding-bottom: 70px;
+  width: 100%;
+  margin: 0 auto;
 }
 
 .sub-title span {
