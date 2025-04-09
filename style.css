@@ -607,26 +607,25 @@ section {
 .portfolio-content {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
-  gap: 2rem; 
-  flex-wrap: nowrap; 
-  margin-top: 2rem;
-  overflow-x: auto; 
+  align-items: stretch;
+  gap: 2rem;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  padding: 1rem;
 }
 
-.row{
-  position: relative;
-  overflow: hidden;
-  border-radius: 8px;
-  cursor: pointer;
-}
-
-.row img{
+.row {
   width: 100%;
-  border-radius: 8px;
-  display: block;
-  transition: transform 0.5s;
+  max-width: 350px;
+  height: 450px;
+  flex-shrink: 0;
 }
+
+.row img {
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .layer{
   width: 100%;
