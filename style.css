@@ -771,11 +771,11 @@ section {
 }
 
 .contact-icons a:hover:nth-child(2) {
-  color: #1DA1F2;
+  color: #E60023;
 }
 
 .contact-icons a:hover:nth-child(3) {
-  color: #E60023;
+  color: #1DA1F2;
 }
 
 .contact-icons a:hover:nth-child(4) {
